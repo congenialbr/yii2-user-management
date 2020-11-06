@@ -38,7 +38,7 @@ Configuration
 
 ```php
 
-'components'=>[
+'components' => [
 	'user' => [
 		'class' => 'webvimark\modules\UserManagement\components\UserConfig',
 
@@ -49,7 +49,7 @@ Configuration
 	],
 ],
 
-'modules'=>[
+'modules' => [
 	'user-management' => [
 		'class' => 'webvimark\modules\UserManagement\UserManagementModule',
 
@@ -94,7 +94,7 @@ To see full list of options check *UserManagementModule* file
 
 ```php
 
-'modules'=>[
+'modules' => [
 	'user-management' => [
 		'class' => 'webvimark\modules\UserManagement\UserManagementModule',
 	        'controllerNamespace'=>'vendor\webvimark\modules\UserManagement\controllers', // To prevent yii help from crashing
@@ -229,7 +229,7 @@ Events can be handled via config file like following
 
 ```php
 
-'modules'=>[
+'modules' => [
 	'user-management' => [
 		'class' => 'webvimark\modules\UserManagement\UserManagementModule',
 		'on afterRegistration' => function(UserAuthEvent $event) {
@@ -247,7 +247,7 @@ FAQ
 
 **Question**: Do you have API docs?
 
-**Answer**: Check this one http://opensource.id5.com.br/webvimark/doc/index.html (Credits to [lukBarros](https://github.com/lukBarros))
+**Answer**: Not yet, we are building it
 
 **Question**: I want users to register and login with they e-mails! Mmmmm... And they should confirm it too!
 
